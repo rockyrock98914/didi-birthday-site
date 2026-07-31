@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For Radhika 💖</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Premium Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Floating Decorations -->
+    <div class="hearts"></div>
+    <div class="sparkles"></div>
+
+    <main class="app">
+
+        <!-- ================= PAGE 1 ================= -->
+
+        <section class="page active" id="page1">
+
+            <div class="card">
+
+                <div class="sticker cat-left">🐱</div>
+                <div class="sticker bow">🎀</div>
+
+                <h1>
+                    Special Wish
+                    <span>For Radhika 💗</span>
+                </h1>
+
+                <p class="msg">
+                    Aap bohot special ho. ❤️
+                    Ye website maine sirf aapke liye banayi hai...
+                    Bas itna hope karta hu ki aap ise end tak dekhogi. 🌸
+                </p>
+
+                <div class="cute-frame">
+
+                    <div class="corner tl">🎀</div>
+                    <div class="corner tr">✨</div>
+
+                    <img src="assets/P1.png" class="cute-image">
+
+                    <div class="corner bl">🐾</div>
+                    <div class="corner br">💖</div>
+
+                </div>
+
+                <button class="btn primary"
+                    onclick="goToPage(2)">
+                    Next ➜
+                </button>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= PAGE 2 ================= -->
+
+        <section class="page" id="page2">
+
+            <div class="card">
+
+                <div class="sticker cat-right">
+                    🐈
+                </div>
+
+                <h2>
+                    Be Honest...
+                    🌷
+                </h2>
+
+                <p class="question-line">
+                    Kya main aapko call karke pareshaan karta tha?
+                    ☎️💗
+                </p>
+
+                <div
+                    class="btn-row"
+                    id="page2Buttons">
+
+                    <button
+                        class="btn yes"
+                        id="page2Yes"
+                        type="button">
+
+                        YES 💕
+
+                    </button>
+
+                    <button
+                        class="btn no"
+                        id="page2No"
+                        type="button"
+                        onclick="goToPage(3,'no')">
+
+                        NO 🌸
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+                <!-- ================= PAGE 3 ================= -->
+
+        <section class="page" id="page3">
+
+            <div class="card">
+
+                <div class="sticker">
+                    🐾
+                </div>
+
+                <h2>
+                    Thank You For Answering 💗
+                </h2>
+
+                <div class="cute-frame">
+
+                    <div class="corner tl">🎀</div>
+                    <div class="corner tr">✨</div>
+
+                    <img src="assets/P2.png" class="cute-image">
+
+                    <div class="corner bl">🐱</div>
+                    <div class="corner br">💖</div>
+
+                </div>
+
+                <p
+                    class="msg"
+                    id="page3Text">
+                </p>
+
+                <button
+                    class="btn primary"
+                    onclick="goToPage(4)">
+                    Next ➜
+                </button>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= PAGE 4 ================= -->
+
+        <section
+            class="page"
+            id="page4">
+
+            <div class="card">
+
+                <div class="sticker">
+                    🌸
+                </div>
+
+                <h2>
+                    One More Thing...
+                    💕
+                </h2>
+
+                <p class="question-line">
+                    Am I a good boy?
+                    🥺🌷
+                </p>
+
+                <div
+                    class="btn-row"
+                    id="page4Buttons">
+
+                    <button
+                        class="btn yes"
+                        id="page4Yes"
+                        type="button"
+                        onclick="goToPage(5,'yes')">
+
+                        YES 💖
+
+                    </button>
+
+                    <button
+                        class="btn no"
+                        id="page4No"
+                        type="button">
+
+                        NO 🙈
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= PAGE 5 ================= -->
+
+        <section
+            class="page"
+            id="page5">
+
+            <div class="card">
+
+                <div class="sticker">
+                    🐱
+                </div>
+
+                <h2>
+                    Your Answer Means A Lot 💗
+                </h2>
+
+                <div class="cute-frame">
+
+                    <div class="corner tl">🎀</div>
+                    <div class="corner tr">✨</div>
+
+                    <img src="assets/P3.jpg" class="cute-image">
+
+                    <div class="corner bl">🐾</div>
+                    <div class="corner br">💖</div>
+
+                </div>
+
+                <p
+                    class="msg"
+                    id="page5Text">
+                </p>
+
+                <button
+                    class="btn primary"
+                    onclick="goToPage(6)">
+
+                    Next ➜
+
+                </button>
+
+            </div>
+
+        </section>
+                <!-- ================= PAGE 6 ================= -->
+
+        <section class="page" id="page6">
+
+            <div class="card">
+
+                <div class="sticker cat-left">
+                    🐱
+                </div>
+
+                <h2>
+                    Sometimes I Feel...
+                    🤍
+                </h2>
+
+                <p class="question-line">
+                    Kya aap mujhe meri galtiyon ke liye maaf karna chahti ho?
+                </p>
+
+                <p class="promise-text">
+                    🤍 Promise... is baar <b>YES</b> aur <b>NO</b> dono buttons work karenge.
+                    Dil jo kahe wahi choose karna.
+                </p>
+
+                <div class="btn-row">
+
+                    <button
+                        class="btn yes"
+                        type="button"
+                        onclick="goToPage(7,'yes')">
+
+                        YES 💖
+
+                    </button>
+
+                    <button
+                        class="btn no"
+                        type="button"
+                        onclick="goToPage(7,'no')">
+
+                        NO 🌸
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= PAGE 7 ================= -->
+
+        <section class="page" id="page7">
+
+            <div class="card">
+
+                <div class="sticker">
+                    ✨
+                </div>
+
+                <h2 id="page7Title"></h2>
+
+                <div class="cute-frame">
+
+                    <div class="corner tl">🎀</div>
+                    <div class="corner tr">💖</div>
+
+                    <img src="assets/P4.webp" class="cute-image">
+
+                    <div class="corner bl">🐱</div>
+                    <div class="corner br">🐾</div>
+
+                </div>
+
+                <p
+                    class="msg"
+                    id="page7Text">
+                </p>
+
+                <button
+                    class="btn primary"
+                    onclick="goToPage(8)">
+
+                    Next ➜
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= PAGE 8 ================= -->
+
+        <section class="page" id="page8">
+
+            <div class="card">
+
+                <div class="sticker">
+                    🎀
+                </div>
+
+                <h2>
+                    Choose My Punishment 🥹
+                </h2>
+
+                <p class="question-line">
+                    Ab punishment choose karo, Radhika.
+                </p>
+
+                <div class="options-row">
+
+                    <button
+                        class="btn option"
+                        onclick="goToPage('page8_1')">
+
+                        👋 Chanta
+
+                    </button>
+
+                    <button
+                        class="btn option"
+                        onclick="goToPage('page8_2')">
+
+                        😖 Daant
+
+                    </button>
+
+                    <button
+                        class="btn option special"
+                        onclick="goToPage('page8_3')">
+
+                        💖 All In One
+
+                    </button>
+
+                </div>
+
+                <button
+                    class="btn back"
+                    onclick="goToPage(7)">
+
+                    ← Back
+
+                </button>
+
+            </div>
+
+        </section>
+                <!-- ================= PAGE 8_1 ================= -->
+
+        <section class="page" id="page8_1">
+
+            <div class="card">
+
+                <div class="sticker">👋</div>
+
+                <h2>Chanta Answer 💗</h2>
+
+                <img src="assets/P5.jpg" class="cute-image">
+
+                <p class="msg">
+                    Agar aap chanta bhi dogi,
+                    tab bhi main aapki feelings ko respect karunga.
+                    Aapka pyaar aur aapki daant dono mere liye important hai.
+                </p>
+
+                <button class="btn primary"
+                    onclick="goToPage(8)">
+                    Back
+                </button>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= PAGE 8_2 ================= -->
+
+        <section class="page" id="page8_2">
+
+            <div class="card">
+
+                <div class="sticker">🌸</div>
+
+                <h2>Daant Answer 💖</h2>
+
+                <img src="assets/P6.jpg" class="cute-image">
+
+                <p class="msg">
+                    Agar aap daant dogi,
+                    main samajh jaunga ki aap mujhe sudharna chahti ho.
+                    Main aapki har baat ko dil se maanunga.
+                </p>
+
+                <button class="btn primary"
+                    onclick="goToPage(8)">
+                    Back
+                </button>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= PAGE 8_3 ================= -->
+
+        <section class="page" id="page8_3">
+
+            <div class="card">
+
+                <div class="sticker">🎀</div>
+
+                <h2>All In One 💕</h2>
+
+                <img src="assets/P7.jpg" class="cute-image">
+
+                <p class="msg">
+                    Aap chahe chanta do,
+                    daant do,
+                    ya aur kuch bhi bolo...
+                    Main sab respect ke saath accept karunga.
+                    Aap mere liye hamesha special rahogi. 🤍
+                </p>
+
+                <button class="btn primary"
+                    onclick="goToPage(9)">
+                    Next ➜
+                </button>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= PAGE 9 ================= -->
+
+        <section class="page" id="page9">
+
+            <div class="card">
+
+                <div class="sticker">🐱</div>
+
+                <h2>Our Memories 🌸</h2>
+
+                <img src="assets/P8.jpg" class="cute-image">
+
+                <p class="msg">
+                    Aapko call karna,
+                    masti karna,
+                    Maggie khana,
+                    aur saare cute moments...
+                    Ye sab memories mere liye hamesha special rahengi. 💗
+                </p>
+
+                <button class="btn primary"
+                    onclick="goToPage(10)">
+                    Next ➜
+                </button>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= PAGE 10 ================= -->
+
+        <section class="page" id="page10">
+
+            <div class="card">
+
+                <div class="sticker">💖</div>
+
+                <h2>Thank You 🌷</h2>
+
+                <p class="msg">
+                    Not from heart... Bye. 🤍<br><br>
+
+                    Bas website yahin end hoti hai,
+                    lekin aapki memories aur smile
+                    hamesha mere liye special rahengi. 🌸
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
